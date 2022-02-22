@@ -1,0 +1,8 @@
+a.switcher{text-decoration:underline;color:#00f;cursor:pointer;}
+ul.tags{padding:0;margin:0;}
+ul.tags li{padding:0;margin:0;list-style:none;list-style-position:outside;display:inline;margin-right:0.4em;}
+ul.tags li.size-10{font-size:180%;}
+ul.tags li.size-8{font-size:180%;}
+ul.tags li.size-7{font-size:140%;}
+ul.tags li.size-6{font-size:120%;}
+ul.tags li.size-4{font-size:80%;}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset= UTF-8" />
+<title>cssswitcher</title>
+<link rel="stylesheet" type="text/css" href="css/size.css" id="font" />
+<link rel="stylesheet" type="text/css" href="css/color.css" id="color" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/jquery.cssswitcher.js"></script>
+</head>
+<body>
+
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size_small'},{'id':'color','theme':'color_b'}]);" class="switcher">小(青)</a> 
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size'},{'id':'color','theme':'color'}]);" class="switcher">標準(黒)</a> 
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size_big'},{'id':'color','theme':'color_r'}]);" class="switcher">大(赤)</a> 
+<hr />
+組み合わせを変えてみる
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size_small'},{'id':'color','theme':'color_r'}]);" class="switcher">小(赤)</a> 
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size'},{'id':'color','theme':'color_b'}]);" class="switcher">標準(青)</a> 
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size_big'},{'id':'color','theme':'color'}]);" class="switcher">大(黒)</a> 
+<hr />
+別々に
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size_small'}]);" class="switcher">小</a> 
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size'}]);" class="switcher">標準</a> 
+<a onclick="CssSwitcher.change([{'id':'font','theme':'size_big'}]);" class="switcher">大</a> 
+<a onclick="CssSwitcher.change([{'id':'color','theme':'color_b'}]);" class="switcher">青</a> 
+<a onclick="CssSwitcher.change([{'id':'color','theme':'color'}]);" class="switcher">黒</a> 
+<a onclick="CssSwitcher.change([{'id':'color','theme':'color_r'}]);" class="switcher">赤</a> 
+<hr />
+
+
+<p>あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらいるれろわをん</p>
+
+<p>abcdefghijklmnopqrstuvwxyz</p>
+
+
+<a href="jquery.cssswitcher_mix1.html">次へ</a> 
+</body>
+</html>
